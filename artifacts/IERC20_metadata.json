@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"WarisanDigital.sol": "IERC20"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"WarisanDigital.sol": {
+			"keccak256": "0xe9bba8fcf0a0228b53bdb9e385cdd294d81cd57cc3ac1d6cb4e9861c5ff3f050",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21dab8a71f468fd20fd2bc5320cad9b563431133100e2706b9cb9c4b50d1ba15",
+				"dweb:/ipfs/QmUJqSoYY15M2ZzPHSVvrNw5Fv8p8M1JScY4MyqvpHwf2F"
+			]
+		}
+	},
+	"version": 1
+}
